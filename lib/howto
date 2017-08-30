@@ -15,7 +15,7 @@ options:
             HPGL-C
             HPGL-D
 
-            LW   - Lazer Printer   (Postcript Output piped to command given in
+            LW   - Laser Printer   (Postscript Output piped to command given in
                                      LWOUTPUT environment variable)
             PS   - Post Script output
 

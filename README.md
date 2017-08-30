@@ -10,7 +10,7 @@ flea [ -dicfrlLtp ] [ options arguments ] file1 file2 ...
 options:
     d - Specify device in flag data
         Devices:
-            PL   - HP7550 plotter   (Output piped to command given in PLOUTPUT
+            PL   - HP7550 plotter    (Output piped to command given in PLOUTPUT
             PL-B - For B sized paper  environment variable)
             PL-C - For C sized paper
             PL-D - For D sized paper
@@ -20,7 +20,7 @@ options:
             HPGL-C
             HPGL-D
 
-            LW   - Lazer Printer   (Postcript Output piped to command given in
+            LW   - Laser Printer    (Postscript Output piped to command given in
                                      LWOUTPUT environment variable)
             PS   - Post Script output
 
