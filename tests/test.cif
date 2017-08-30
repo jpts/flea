@@ -1,0 +1,25 @@
+( @@user : itualc );
+( @@machine : lux.levels.unisa.edu.au );
+( @@source : test1.mag );
+( @@tool : Magic 6.4.4 );
+( @@patch : 1 );
+( @@patchnames : release-6.4, linux1 );
+( @@compiled : Tue Mar 14 11:36:07 GMT+1030 1995 );
+( @@technology : scmos );
+( @@version : 8.0.0 );
+( @@techdesc : MOSIS Scalable CMOS Technology for Orbit, AMI, and VTI );
+( @@style : lambda=1.0(gen) );
+( @@date : Thu Mar 30 14:27:17 1995 );
+DS 1 50 2;
+9 test1;
+L CMF;
+    B 20 32 90 4;
+L CPG;
+    B 204 24 -2 4;
+94 right 92 4 CMF;
+94 left -96 4 CPG;
+94 top -8 40;
+94 bottom -4 -20;
+DF;
+C 1;
+End

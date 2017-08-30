@@ -1,0 +1,136 @@
+#
+# CIF tech file for Postscript Printers
+#
+> COG			glass
+	. PenNumber 0
+	. LineStyle 6
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> XP			Pad Comment
+	. PenNumber 0
+	. LineStyle 7
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> CX			Icon/Outline
+	. PenNumber 0
+	. LineStyle 2
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> CCC			Layer Cuts
+	. PenNumber 0
+	. LineStyle 12
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> COP			Layer Cuts
+	. PenNumber 0
+	. LineStyle 15
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> CMF			metal1
+	. PenNumber 2
+	. LineStyle -1
+	. FillPen   13
+	. FillStyle 803
+	. LabelSize 8
+	. LabelPen  0
+> CMS			metal2
+	. PenNumber 2
+	. LineStyle -1
+	. FillPen   5
+	. FillStyle 819
+	. LabelSize 8
+	. LabelPen  0
+> CVA			m2contact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -3 -old value 300
+	. LabelSize 8
+	. LabelPen  0
+> CMT			metal3
+	. PenNumber 2
+	. LineStyle -1
+	. FillPen   5
+	. FillStyle 851
+	. LabelSize 8
+	. LabelPen  0
+> CVS			m3contact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   5
+	. FillStyle -3 -old value 300
+	. LabelSize 8
+	. LabelPen  0
+> CPG			polysilicon
+	. PenNumber 3
+	. LineStyle -1
+	. FillPen   3
+	. FillStyle 283
+	. LabelSize 8
+	. LabelPen  0
+> CCP			polycontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  0
+> CAA			diffusion
+	. PenNumber 4
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> CCA			diff contact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  0
+> CSN			nselect
+	. PenNumber 3
+	. LineStyle 1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> CSP			pselect
+	. PenNumber 0
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> CWP			pwell
+	. PenNumber 3
+	. LineStyle 2
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> CWN			nwell
+	. PenNumber 3
+	. LineStyle 2
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> labels
+	. PenNumber 0
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0

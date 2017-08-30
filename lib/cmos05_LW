@@ -1,0 +1,177 @@
+#
+# Tech file for Laser Writer
+#
+> glass
+	. PenNumber 0
+	. LineStyle 6
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> metal1
+	. PenNumber 2
+	. LineStyle -1
+	. FillPen   13
+	. FillStyle 803
+	. LabelSize 8
+	. LabelPen  0
+> metal2
+	. PenNumber 2
+	. LineStyle -1
+	. FillPen   5
+	. FillStyle 819
+	. LabelSize 8
+	. LabelPen  0
+> m2contact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -3 -old value 300
+	. LabelSize 8
+	. LabelPen  0
+> polysilicon
+	. PenNumber 3
+	. LineStyle -1
+	. FillPen   3
+	. FillStyle 283
+	. LabelSize 8
+	. LabelPen  0
+> polycontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  0
+> ndiffusion
+	. PenNumber 4
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> ndiffcontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  0
+		& ndiffusion
+> nsubstratendiff
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+		& ndiffusion
+> nsubstratetap
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 4
+	. LabelPen  0
+		& ndiffusion
+> nwell
+	. PenNumber 3
+	. LineStyle 1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> pdiffusion
+	. PenNumber 0
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+> pdiffcontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  0
+		& pdiffusion
+> psubstratepdiff
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+		& pdiffusion
+> psubstratetap
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   0
+	. FillStyle -2
+	. LabelSize 4
+	. LabelPen  0
+		& pdiffusion
+> pwell
+	. PenNumber 3
+	. LineStyle 2
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 4
+	. LabelPen  0
+> ntransistor
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1  OLD VALUE 3
+	. FillStyle -1  OLD VALUE 803
+	. LabelSize 4
+	. LabelPen  0
+		& polysilicon
+		& ndiffusion
+> ptransistor
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1  OLD VALUE 4
+	. FillStyle -1  OLD VALUE 803
+	. LabelSize 4
+	. LabelPen  0
+		& polysilicon
+		& pdiffusion
+> space
+	. LabelSize 8
+	. LabelPen  0
+> checkpaint
+> error_p
+> error_s
+> error_ps
+> labels
+	. PenNumber 0
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  0
+#
+# bi-cmos entries created by John Tillema  tillemaj@cae.wisc.edu
+#
+> collector
+         . PenNumber 3
+         . LineStyle 4
+         . FillPen   3
+         . FillStyle 283
+         . LabelSize 8
+         . LabelPen  0
+ > pbasecontact
+         . PenNumber 3
+         . LineStyle 4
+         . FillPen   3
+         . FillStyle -3
+         . LabelSize 8
+         . LabelPen  0
+ > collectorcontact
+         . PenNumber 3
+         . LineStyle 4
+         . FillPen   3
+         . FillStyle 20
+         . LabelSize 8
+         . LabelPen  0

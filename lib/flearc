@@ -1,0 +1,73 @@
+#
+# Global flearc file
+# Used by default.
+#
+#set interactive toggle
+set path ./layout/:~lager/LagerIV/cellib/dpp_1.3/leafcells/:~lager/LagerIV/cellib/TimLager/pla/pla_leafcells/
+test $interactive = yes
+	interact
+	write Enter title: 
+	set option ?
+endtest
+set interactive false
+test $cif == yes
+	echo Using CIF reader.
+endtest
+test $fullpage == yes
+	echo Scale to full page size
+endtest
+test $device == "PL"
+	echo DEVICE: HP7550
+endtest
+test $device == "HP"
+	echo DEVICE: HP7580
+endtest
+test $device == "LW"
+	echo DEVICE: LaserWriter -Plv
+endtest
+test $device == "VP"
+	echo DEVICE: VERSATEC Color Plotter
+	text left,8,>.1,/0,Scale: %s Units per inch.
+	text left,8,>.1,/.25,Filename: %f
+endtest
+test $device <> "VP"
+test $device <> "HP"
+	set left-margin 1.0
+	line <1.0,\0,<1.0,/0
+	line <.5,\0,<.5,/0
+	line <.75,\0,<.75,/0
+	line <.5,.0,<.75,.0
+	line <.75,.0,<1.0,.0
+	line <0,\0,>0,\0
+	line <0,\0,<0,/0
+	line <0,/0,>0,/0
+	line >0,/0,>0,\0
+	text rotate,center,14,<.20,.0,MICROELECTRONICS DESIGN
+	text rotate,center,10,<.40,.0,Research Center for Advanced Scientific Computing
+	text rotate,left,12,<.7,\0,DATE: %d
+	test $cif = no
+		text rotate,left,12,<.7,.0,Scale: %s lambda/inch
+	endtest
+	test $cif = yes
+		text rotate,left,12,<.7,.0,Scale: %s microns/inch
+	endtest
+	text rotate,left,12,<.95,\0,Filename: %f
+	text rotate,left,12,<.95,.0,User: %u
+	test $option <> ""
+		set right-margin .4
+		text rotate,center,12,>.2,.0,%o
+	endtest
+	test $1 <> ""
+		text rotate,center,12,>.2,.0,%1
+	endtest
+endtest
+endtest
+test $device == "HP"
+	text left,8,<.1,/0,Scale: %s Units per inch.
+	text left,8,<.1,/.25,Filename: %f
+	test $option <> ""
+		text left,8,<.1,/.5,%o
+	endtest
+endtest
+
+

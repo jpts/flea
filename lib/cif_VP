@@ -1,0 +1,98 @@
+> COG
+	. PenNumber 7
+	. LineStyle 6
+	. FillPen   7
+	. FillStyle 133
+	. LabelSize 4
+	. LabelPen  1
+> CPG
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   6
+	. FillStyle 6
+	. LabelSize 8
+	. LabelPen  1
+> CAA
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 102
+	. LabelSize 8
+	. LabelPen  1
+> CMF
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 2
+	. LabelSize 8
+	. LabelPen  1
+> CMS
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 203
+	. LabelSize 8
+	. LabelPen  1
+> CVA
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -3
+	. LabelSize 8
+	. LabelPen  1
+> CCA
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  1
+> CWP
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 129
+	. LabelSize 8
+	. LabelPen  1
+> CCP
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 127
+	. LabelSize 4
+	. LabelPen  1
+> CSP
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 144
+	. LabelSize 4
+	. LabelPen  1
+> CWN
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 99
+	. LabelSize 4
+	. LabelPen  1
+> CSN
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 80
+	. LabelSize 4
+	. LabelPen  1
+> XP
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 199
+	. LabelSize 4
+	. LabelPen  1
+> labels
+	. PenNumber 1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 1
+	. LabelSize 8
+	. LabelPen  1

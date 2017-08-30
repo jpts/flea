@@ -1,0 +1,29 @@
+Files that need to be changed:
+
+flea.h: includes paths that may need to be customised for your system.
+Specifically the #define TECHFILES needs to contain the full path to
+the directory under which the included lib directory will be installed.
+
+
+Environment variable PLOUTPUT is the program executed to plot to the
+HP plotter, the default is "lpr -Ppl"
+(The device name for flea is PL)
+
+Environment variable LWOUTPUT is the program executed to plot to the
+laser printer, the default is "lpr -Plw"
+(The device name for flea is LW) 
+
+You need to set up the lib directory included in the place specified 
+in flea.h,  If you are not using the mosis CIF layer names, or the
+berkley scmos techfile, then you may need to change some of the files
+in this directory.  The man pages describes the format of those files.
+
+You may also need to update or change the file 'flearc' in the lib
+directory.
+
+If you have problems installing this software, I can be contacted at:
+lush@erc.msstate.edu
+
+Ed Luke
+
+

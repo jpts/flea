@@ -1,0 +1,162 @@
+# FLEA Technology file for scmos
+# Dec 13, 1988
+> glass
+	. PenNumber 7
+	. LineStyle 6
+	. FillPen   7
+	. FillStyle 133
+	. LabelSize 4
+	. LabelPen  1
+> polysilicon
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   6
+	. FillStyle 6
+	. LabelSize 8
+	. LabelPen  1
+> ndiffusion
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 102
+	. LabelSize 8
+	. LabelPen  1
+> pdiffusion
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 140
+	. LabelSize 8
+	. LabelPen  1
+> metal1
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 2
+	. LabelSize 8
+	. LabelPen  1
+> metal2
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 203
+	. LabelSize 8
+	. LabelPen  1
+> m2contact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -3
+	. LabelSize 8
+	. LabelPen  1
+		& metal1
+		& metal2
+> polycontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  1
+		& metal1
+		& polysilicon
+> ndcontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  1
+		& metal1
+> pdcontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle -2
+	. LabelSize 8
+	. LabelPen  1
+		& metal1
+> ntransistor
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1  OLD VALUE 3
+	. FillStyle -1  OLD VALUE 803
+	. LabelSize 4
+	. LabelPen  1
+		& polysilicon
+		& ndiffusion
+> ptransistor
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   -1  OLD VALUE 4
+	. FillStyle -1  OLD VALUE 803
+	. LabelSize 4
+	. LabelPen  1
+		& polysilicon
+		& pdiffusion
+> psubstratepdiff
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 120
+	. LabelSize 4
+	. LabelPen  1
+> nsubstratendiff
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen    1
+	. FillStyle  92
+	. LabelSize 4
+	. LabelPen  1
+> nsubstratencontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen    -1
+	. FillStyle  -1
+	. LabelSize 4
+	. LabelPen  1
+		& metal1
+		& ndcontact
+		& nsubstratendiff
+> psubstratepcontact
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen    -1
+	. FillStyle  -1
+	. LabelSize 4
+	. LabelPen  1
+		& metal1
+		& pdcontact
+		& psubstratepdiff
+> pwell
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 127
+	. LabelSize 4
+	. LabelPen  1
+> nwell
+	. PenNumber -1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 106
+	. LabelSize 8
+	. LabelPen  1
+> checkpaint
+> error_p
+> error_s
+> error_ps
+> space
+	. PenNumber 7
+	. LineStyle -1
+	. FillPen   -1
+	. FillStyle -1
+	. LabelSize 8
+	. LabelPen  1
+> labels
+	. PenNumber 1
+	. LineStyle -1
+	. FillPen   1
+	. FillStyle 1
+	. LabelSize 8
+	. LabelPen  1

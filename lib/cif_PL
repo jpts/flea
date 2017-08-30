@@ -1,0 +1,131 @@
+#***********************************************************************
+#**                                                                   **
+#**       FLEA TECHNOLOGY FILE FOR CIF FOR THE HP7580 AND HP7550      **
+#**                                                                   **
+#***********************************************************************
+#**                                                                   **
+#** CREATED: Jun 20, 1986                                             **
+#** Modification History:                                             **
+#**              Added layers CSN,CWN : Jul 31,1986                   **
+#**                                                                   **
+#**                                                                   **
+#***********************************************************************
+> CWP        pwell
+  . PenNumber 7
+  . LineStyle 2
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CWN        nwell
+  . PenNumber 3
+  . LineStyle 2
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CWG        nwell
+  . PenNumber 3
+  . LineStyle 2
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CMS        metal2
+  . PenNumber 2
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CMF        metal1
+  . PenNumber 6
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CPG        poly
+  . PenNumber 5
+  . LineStyle -1
+  . FillPen   5
+  . FillStyle 291
+  . LabelSize 8
+  . LabelPen  8
+> CEL        2nd poly
+  . PenNumber 5
+  . LineStyle 10
+  . FillPen   5
+  . FillStyle 291
+  . LabelSize 8
+  . LabelPen  8
+> CAA        diffusion
+  . PenNumber 3
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CVA        via
+  . PenNumber -1
+  . LineStyle -1
+  . FillPen   2
+  . FillStyle -3
+  . LabelSize 8
+  . LabelPen  8
+> CCA        diffusion contact
+  . PenNumber -1
+  . LineStyle -1
+  . FillPen   8
+  . FillStyle -2
+  . LabelSize 8
+  . LabelPen  8
+> CCP        poly contact
+  . PenNumber -1
+  . LineStyle -1
+  . FillPen   8
+  . FillStyle -2
+  . LabelSize 8
+  . LabelPen  8
+> CCE        2nd poly contact
+  . PenNumber -1
+  . LineStyle -1
+  . FillPen   8
+  . FillStyle -2
+  . LabelSize 8
+  . LabelPen  8
+> CSP        pselect
+  . PenNumber 7
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CSN        nselect
+  . PenNumber 4
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> CSG        select
+  . PenNumber 4
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 8
+  . LabelPen  8
+> COG        glass
+  . PenNumber 7
+  . LineStyle 6
+  . FillPen   7
+  . FillStyle 851
+  . LabelSize 8
+  . LabelPen  8
+> labels     label information
+  . PenNumber 1
+  . LineStyle -1
+  . FillPen   -1
+  . FillStyle -1
+  . LabelSize 12
+  . LabelPen  8

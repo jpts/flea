@@ -1,0 +1,41 @@
+Usage:
+
+flea [ -dicfrlLtp ] [ options arguments ] file1 file2 ...
+
+options:
+    d - Specify device in flag data
+        Devices:
+            PL   - HP7550 plotter   (Output piped to command given in PLOUTPUT
+            PL-B - For B sized paper  environment variable)
+            PL-C - For C sized paper
+            PL-D - For D sized paper   
+
+            HPGL - hpgl output 
+            HPGL-B
+            HPGL-C
+            HPGL-D
+
+            LW   - Lazer Printer   (Postcript Output piped to command given in
+                                     LWOUTPUT environment variable)
+            PS   - Post Script output
+
+            VP   - Versatec Plotter
+
+    i - Use interactive mode.
+    c - Read file as cif file. Program appends .cif to filename.
+    f - Scale to full page size.
+    r - Specify cell recursion level in flag data
+    l - Specify label recursion level in flag data
+    L - Plot only layers listed in flag data. Layers seperated by commas
+        only - no spaces. (Note: must occur before techfile.)
+    t - Specify tech file in flag data.
+    p - Search these paths for files when reading magic files. Paths
+        seperated by ':' and end in a '/'.
+
+EXAMPLES:
+
+This plots the file test.mag to the HP7550 plotter, only plotting the listed
+layers.
+
+flea -dL PL poly,metal1,metal2,ndiff,pdiff test
+
